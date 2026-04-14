@@ -9,7 +9,7 @@ mod delay_line;
 
 const SAMPLE_RATE: u32 = 44100;
 const IR_DURATION_SEC: f32 = 3.0;
-const TARGET_RMS_DBFS: f32 = -20.0;
+const TARGET_RMS_DBFS: f32 = -55.0;
 
 fn normalize(samples: &[f32]) -> Vec<f32> {
     // RMSを計算
